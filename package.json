@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Odin Project: Restaurant Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"baba\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebiscus/restaurant-page.git"
+  },
+  "author": "hebiscus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hebiscus/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/hebiscus/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
