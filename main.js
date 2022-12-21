@@ -1,1 +1,1 @@
-console.log("baba");
+(()=>{var e={637:()=>{console.log("contact!")},83:()=>{console.log("menu!")}},t={};function n(o){var r=t[o];if(void 0!==r)return r.exports;var c=t[o]={exports:{}};return e[o](c,c.exports,n),c.exports}(()=>{"use strict";n(83),n(637),function(){const e=document.getElementById("content"),t=document.createElement("div");e.appendChild(t)}()})()})();
