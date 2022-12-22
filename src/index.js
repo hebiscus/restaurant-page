@@ -33,4 +33,19 @@ Home();
     footertext.innerText = "Copyright Ⓒ 2022 hebiscus";
     footertext.classList.add("footertext");
     footer.appendChild(footertext);
+
+    const homeButton = document.createElement("button");
+    homeButton.classList.add("homeButton");
+    homeButton.innerText = "Home";
+    header.appendChild(homeButton);
+
+    const menuButton = document.createElement("button");
+    menuButton.classList.add("menuButton");
+    menuButton.innerText = "Menu";
+    header.appendChild(menuButton);
+
+    const contactButton = document.createElement("button");
+    contactButton.classList.add("contactButton");
+    contactButton.innerText = "Contact";
+    header.appendChild(contactButton);
 })();

@@ -16,6 +16,11 @@ body {
     margin: 0;
 }
 
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 #content {
     height: 100%;
     width: 100%;
@@ -35,7 +40,11 @@ body {
 
 .header {
     width: 100%;
-    height: 15%;
+    height: 18%;
+    display: grid;
+    grid-template-columns: 1fr 11% 11% 11% 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
 }
 
 .header:before {
@@ -43,7 +52,7 @@ body {
     top: 0px;
     right: 0px;
     left: 0px;
-    bottom: 85%;
+    bottom: 82%;
     opacity: 0.8;
     background-color: black;
     position: absolute;
@@ -53,9 +62,44 @@ body {
     margin: 0;
     color: white;
     font-size: 5rem;
-    text-align: center;
     z-index: 2;
     position: relative;
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
+    line-height: 6rem;
+}
+
+.homeButton {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    z-index: 2;
+    border: none;
+    background-color: inherit;
+    font-size: 2.5rem;
+    color: white;
+    line-height: 6rem;
+}
+
+.menuButton {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    z-index: 2;
+    border: none;
+    background-color: inherit;
+    font-size: 2.5rem;
+    color: white;
+    line-height: 6rem;
+}
+
+.contactButton {
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+    z-index: 2;
+    border: none;
+    background-color: inherit;
+    font-size: 2.5rem;
+    color: white;
+    line-height: 6rem;
 }
 
 .middlediv {
