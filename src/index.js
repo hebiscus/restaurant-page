@@ -3,7 +3,7 @@ import Menu from "./menu";
 import Contact from "./contact";
 import "./style.css";
 
-Home();
+
 
 (function () {
     const content = document.getElementById("content");
@@ -49,3 +49,5 @@ Home();
     contactButton.innerText = "Contact";
     header.appendChild(contactButton);
 })();
+
+Home();
