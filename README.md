@@ -1,4 +1,4 @@
-# Odin Project- Restuarant Page
+# Odin Project- Restaurant Page
 
 Tools used: JavaScript, HTML, CSS.
 # How it looks:
