@@ -7,12 +7,8 @@ export default function Home() {
     function renderHome() {
       const uptextparagraph = document.createElement("p");
       uptextparagraph.classList.add("uptext");
-      uptextparagraph.innerText = `We are a restaurant located on Moody Street in Waltham, Ma. Our traditional American style breakfasts and uniquely 
-      styled sandwich selection have been the backbone of our success. With a commitment to our community
-      and the focus on total guest satisfaction we have been able to provide not only a great food product, 
-      but a great overall experience as well. We strive every day to meet and exceed our guests expectations.  
-      We know andunderstand that without our guests there is no Us.  It is very important to us that
-      every guest receives the best experience they possibly can while in our restaurant`
+      uptextparagraph.innerText = "Our traditional French style breakfasts have been the backbone of our success. With a commitment to our community and the focus on total guest satisfaction we have been able to provide not only a great food product," + 
+      " " + "but a great overall experience as well." 
       middlediv.appendChild(uptextparagraph);
 
       const picture = document.createElement("img");

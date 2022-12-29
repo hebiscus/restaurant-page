@@ -3,8 +3,6 @@ import Menu from "./menu";
 import Contact from "./contact";
 import "./style.css";
 
-
-
 (function () {
     const content = document.getElementById("content");
 
@@ -51,3 +49,4 @@ import "./style.css";
 })();
 
 Home();
+Contact();
