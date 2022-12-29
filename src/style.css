@@ -141,6 +141,14 @@ button:hover {
     padding-bottom: 5%;
 }
 
+.menutext {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.8;
+}
+
 .contacttext {
     color: white;
     margin: 0;
@@ -151,6 +159,7 @@ button:hover {
 #map {
     height: 50%; 
     width: 80%; 
+    border-radius: 4%;
   }
 
 .footer {

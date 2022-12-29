@@ -1,9 +1,10 @@
 export default function Home() {
-    const homeButton = document.querySelector(".homeButton");
     const middlediv = document.querySelector(".middlediv");
-
-    homeButton.addEventListener("click", function() {renderHome()});
+    let currentcontent = middlediv.children;
+    console.log(currentcontent);
     
+    middlediv.replaceChildren();
+
     function renderHome() {
       const uptextparagraph = document.createElement("p");
       uptextparagraph.classList.add("uptext");
@@ -21,4 +22,6 @@ export default function Home() {
       downtextparagraph.innerText = `Contact us for reservation!`
       middlediv.appendChild(downtextparagraph);
     }
+
+    renderHome()
   }

@@ -1,8 +1,7 @@
 export default function Contact() {
-    const contactButton = document.querySelector(".contactButton");
     const middlediv = document.querySelector(".middlediv");
 
-    contactButton.addEventListener("click", function() {renderContact()});
+    middlediv.replaceChildren();
     
     function renderContact() {
       middlediv.style.justifyContent = "space-evenly"
@@ -20,7 +19,8 @@ export default function Contact() {
 
       initMap();
     }
-
+    
+    renderContact() 
 }
 
 

@@ -3,7 +3,7 @@ import Menu from "./menu";
 import Contact from "./contact";
 import "./style.css";
 
-(function () {
+(function render() {
     const content = document.getElementById("content");
 
     const divLayer = document.createElement("div");
@@ -48,5 +48,14 @@ import "./style.css";
     header.appendChild(contactButton);
 })();
 
-Home();
-Contact();
+(function tabSwitch() {
+    const homeB = document.querySelector(".homeButton");
+    const menuB = document.querySelector(".menuButton");
+    const contactB = document.querySelector(".contactButton");
+
+    Home();
+
+    homeB.addEventListener("click", function() {Home()});
+    menuB.addEventListener("click", function() {Menu()});
+    contactB.addEventListener("click", function() {Contact()});
+})();
