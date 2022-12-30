@@ -1,8 +1,5 @@
 export default function Home() {
-    const middlediv = document.querySelector(".middlediv");
-    let currentcontent = middlediv.children;
-    console.log(currentcontent);
-    
+    const middlediv = document.querySelector(".middlediv");    
     middlediv.replaceChildren();
 
     function renderHome() {

@@ -1,6 +1,5 @@
 export default function Menu() {
     const middlediv = document.querySelector(".middlediv");
-
     middlediv.replaceChildren();
     
     function renderMenu() {

@@ -1,6 +1,5 @@
 export default function Contact() {
     const middlediv = document.querySelector(".middlediv");
-
     middlediv.replaceChildren();
     
     function renderContact() {
