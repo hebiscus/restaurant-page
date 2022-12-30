@@ -14,7 +14,7 @@ export default function Home() {
 
       const picture = document.createElement("img");
       picture.classList.add("homepicture")
-      picture.src = "../src/homepicture.jpg";
+      picture.src = "homepicture.jpg";
       middlediv.appendChild(picture);
 
       const downtextparagraph = document.createElement("p");
